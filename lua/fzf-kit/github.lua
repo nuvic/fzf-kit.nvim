@@ -265,6 +265,7 @@ function M.github_prs()
 		fzf_opts = {
 			["--delimiter"] = "\t",
 			["--with-nth"] = "1,2,3",
+			["--header"] = "ctrl-f: filter PRs // ctrl-o: open in browser // ctrl-c: checkout PR ",
 		},
 	})
 end
